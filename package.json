@@ -9,7 +9,7 @@
         "lint": "next lint && tsc --noEmit",
         "lint:fix": "next lint --fix",
         "format": "prettier '*/**/*.ts' --check --ignore-unknown",
-        "format:fix": "prettier '*/**/*.ts' --write ."
+         "format:fix": "prettier '*/**/*.ts' --write ."
     },
     "dependencies": {
         "next": "15.1.6",

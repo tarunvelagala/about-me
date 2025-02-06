@@ -1,4 +1,4 @@
 module.exports = {
-    '**/*.{js,jsx,ts,tsx}': ['npm run format:fix', 'npm run lint:fix'],
-    '**/*.{json,css,scss,md}': ['npm run format:fix'],
+    '*.{js,ts}': ['npm run format:fix', 'npm run lint-staged'],
+    '*.{json}': ['npm run format:fix'],
 };
