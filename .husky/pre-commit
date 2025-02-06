@@ -1,0 +1,1 @@
+npx tsc --noEmit && npx run lint:fix . && npx run format:fix
