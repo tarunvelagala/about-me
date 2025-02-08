@@ -21,9 +21,9 @@
     "react-dom": "^19.0.0"
   },
   "lint-staged": {
-  "src/**/*.{ts,tsx,js,jsx}": [
-    "eslint --fix",
-    "prettier --write"
+  "src/**/*.{ts,tsx}": [
+    "npm run lint:fix",
+    "npm run format:fix"
   ]
 },
   "devDependencies": {
